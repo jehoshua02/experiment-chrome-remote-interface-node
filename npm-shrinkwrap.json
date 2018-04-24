@@ -1,0 +1,51 @@
+{
+  "name": "experiment-chromium-devtools-protocol",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "chrome-remote-interface": {
+      "version": "0.25.5",
+      "resolved": "https://registry.npmjs.org/chrome-remote-interface/-/chrome-remote-interface-0.25.5.tgz",
+      "integrity": "sha1-z9P7Ekv18upanXIDdSfBVoIrFAY=",
+      "requires": {
+        "commander": "2.11.0",
+        "ws": "3.3.3"
+      },
+      "dependencies": {
+        "commander": {
+          "version": "2.11.0",
+          "resolved": "http://registry.npmjs.org/commander/-/commander-2.11.0.tgz",
+          "integrity": "sha1-FXFS/R56bI2YpbcVzzdt+SgARWM="
+        },
+        "ws": {
+          "version": "3.3.3",
+          "resolved": "https://registry.npmjs.org/ws/-/ws-3.3.3.tgz",
+          "integrity": "sha1-8c+E/i1ekB686U767OeF8YeiKPI=",
+          "requires": {
+            "async-limiter": "1.0.0",
+            "safe-buffer": "5.1.1",
+            "ultron": "1.1.1"
+          },
+          "dependencies": {
+            "async-limiter": {
+              "version": "1.0.0",
+              "resolved": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz",
+              "integrity": "sha1-ePrtjD0HSrgfIrTphdeehzj3IPg="
+            },
+            "safe-buffer": {
+              "version": "5.1.1",
+              "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",
+              "integrity": "sha1-iTMSr2myEj3vcfV4iQAWce6yyFM="
+            },
+            "ultron": {
+              "version": "1.1.1",
+              "resolved": "https://registry.npmjs.org/ultron/-/ultron-1.1.1.tgz",
+              "integrity": "sha1-n+FTahCmZKZSZqHjzPhf02MCvJw="
+            }
+          }
+        }
+      }
+    }
+  }
+}
